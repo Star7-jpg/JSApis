@@ -1,6 +1,6 @@
 const teams = ["Liverpool", "Dortmund", "Chelsea"];
 
-setTimeout(console.log() => console.log('Tarea asincrona'), 5000);
+setTimeout(()=>console.log('Tarea asincrona'), 5000);
 
 console.log('Sigue ejecutando');
 console.log(teams);
